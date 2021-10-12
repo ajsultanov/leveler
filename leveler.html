@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Leveler</title>
+        <link rel="stylesheet" href="leveler.css">
+        <meta></meta>
+    </head>
+    <body>
+        <form id="hello" action="/form-handling-page" method="post">
+            <div class="form-input">
+                <label for="image-up">click to choose images to upload</label>
+                <input id="image-up" name="image-up"
+                    type="file" accept="image/png, image/gif, image/bmp"
+                    autofocus
+                />
+            </div>
+            <div class="preview">
+                <p>no files currently selected for upload</p>
+            </div>
+            <div>
+                <button type="submit" id="submit" >submit</button>
+                <button type="reset" class="reset">clear selected file</button>
+                <button class="show">check file</button>
+            </div>
+        </form>
+        <div id="paint">
+            <img src="upload/3x3.png" id="my-img">
+        </div>
+        <script src="leveler.js"></script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+
+html {
+    background-color: #aaa;
+}
+
+form {
+    border: 1px solid #555;
+    border-radius: 1em;
+    padding: 1em;
+    width: 500px;
+    margin: 0;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+  }
+
+div.form-input {
+    background-color: #ccc;
+    border: 1px solid #555;
+    border-radius: 0.5em;
+    line-height: 2em;
+    padding: 1em;
+}
+div.form-input label {
+    color: blue;
+    font-weight: bold;
+}
+
+div.preview {
+    margin: 1em;
+}
+div.preview p {
+    font-family: Courier, monospace;
+    font-size: small;
+}
+
+div#paint {
+    padding: 1em;
+}
+/* div#paint img {
+    height: 2em;
+    width: 2em;
+} */
+/* div#paint canvas {
+    height: 4em;
+    width: 4em;
+} */
+
+img.thumbnail {
+    background-color: #ccc;
+    border: 2px dotted #aaa;
+    max-height: 100px;
+    padding: 8px;
+    opacity: 0.9;
+}
